@@ -122,3 +122,7 @@ input{
     top: 82px;
     font-size: 20px;
     }
+#tituloPlay{
+	position: relative;
+	top: 20px;
+}
