@@ -59,7 +59,7 @@ body{
 	width:500px;
 	height:450px;
 	bottom:-196px;
-	left: 1041px;
+	left:940px;
 	margin:0;
 	padding:0;
 
@@ -85,4 +85,12 @@ body{
     bottom: 260px;
     color:#75726C;
 
+}
+#textoInvitar{
+	display: block;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+    bottom: -211px;
+    color:black;
 }
