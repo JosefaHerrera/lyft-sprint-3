@@ -114,13 +114,13 @@ input{
 .botonn {
     color: white;
     width: 239px;
-    argin-top: 20px;
     padding: 10px;
     background-color: #E54E79;
     border-radius: 12px;
     position: relative;
     top: 82px;
     font-size: 20px;
+    border: transparent;
     }
 #tituloPlay{
 	position: relative;
