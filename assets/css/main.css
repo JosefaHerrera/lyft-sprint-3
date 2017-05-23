@@ -6,9 +6,12 @@ Colors:
 #75726C;
 #EDE9E2;
 */
-body{
-	margin: 0;
+*{
+		margin: 0;
 	padding: 0;
+}
+body{
+
 	font-family: 'Raleway', sans-serif;
 
 
@@ -75,7 +78,7 @@ body{
 #sing {
     position: absolute;
     left: 50px;
-    bottom: 281px;
+    bottom:318px;
     color:#75726C;
 }
 
@@ -87,10 +90,22 @@ body{
 
 }
 #textoInvitar{
+
 	display: block;
-	width: 100%;
-	position: absolute;
-	left: 0px;
-    bottom: -211px;
+	left: 50px;
+    bottom: 77px;
     color:black;
+    position: absolute;
+}
+
+input{
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	width: 404px;
+	border-bottom: 1px solid #75726C;;
+	background-color:#EDE9E2; 
+	font-size: 15px;
+    padding: 8px;
+
 }
