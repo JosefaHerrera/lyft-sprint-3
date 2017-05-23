@@ -78,3 +78,11 @@ body{
     bottom: 281px;
     color:#75726C;
 }
+
+#telefono{
+	position: absolute;
+	    left: 50px;
+    bottom: 260px;
+    color:#75726C;
+
+}
