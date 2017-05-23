@@ -99,6 +99,8 @@ body{
 }
 
 input{
+	position: relative;
+	top: 61px;
 	border-right: none;
 	border-left: none;
 	border-top: none;
@@ -108,4 +110,14 @@ input{
 	font-size: 15px;
     padding: 8px;
 
+}
+.botonn{
+	position: relative;
+	top:61px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #E54E79 ;
+    border-radius: 12px;
 }
