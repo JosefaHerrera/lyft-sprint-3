@@ -196,19 +196,19 @@ body{
 #xauto:focus, #yauto:focus{
 	outline: 0px;
 }
-.start{
-	color: white;
-	text-transform: uppercase;
-	width: 800px;
-	margin-top: 20px;
-	padding: 10px;
-	background-color: #00B2A9;
-	border-radius: 12px;
-	border-right-style: none;
-	border-bottom-style: solid;
-	cursor: pointer;
-	outline: 0px;
-	border: none;
+.start {
+    color: white;
+    /* text-transform: uppercase; */
+    width: 800px;
+    margin-top: 24px;
+    padding: 21px;
+    background-color: #00B2A9;
+    border-radius: 12px;
+    /* border-right-style: none; */
+    /* border-bottom-style: solid; */
+    /* cursor: pointer; */
+    /* outline: 0px; */
+    border: none;
 }
 /*TERCERA PARTE DE LA PAGINA*/
 /*footer*/
