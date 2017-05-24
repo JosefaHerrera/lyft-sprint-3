@@ -17,7 +17,6 @@ numero.addEventListener("click", function(){
 
 
 
-
 /*
 					CODIGO DE BLANCA 
 //Defino el tablero
