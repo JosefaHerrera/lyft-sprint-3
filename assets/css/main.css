@@ -55,7 +55,7 @@ body{
     height: 700px;
     background-size: 100%;
     background-image: url('../img/cropped-Lyft-Promo-Codes-car-1.jpg');
-    background-repeat: no-repeat;
+    background-repeat:repeat;
 }
 .registro{
 	background:#EDE9E2;
@@ -125,13 +125,13 @@ input{
     }
 
 /*PLAY WITH LYFT */
-.fondoverde{
-	background-color: #00B2A9;
-	position: relative;
-    top: 294px;
-	padding-top: 67px;
-	padding-bottom: 100%;
-
+.fondoverde {
+    background-color: #00B2A9;
+    position: relative;
+    height: 500px;
+    top: 630px;
+    padding-top: 67px;
+    top: 335px;
 }
 .playwithlyft{
 	width: 100%
@@ -149,7 +149,27 @@ input{
 
 	top:10px;
 }
-
+.autos {
+    position: relative;
+    background-color: #EDE9E2;
+    width: 906px;
+    height: 286px;
+    left: 296px;
+    bottom: -74px;
+}
+.boton2{
+    color: white;
+    width: 816px;
+    padding: 10px;
+    background-color: #00B2A9;
+    border-radius: 12px;
+    position: relative;
+    top: 135px;
+    font-size: 20px;
+    border: transparent;
+    left: 44px;
+}
+}
 
 
 
