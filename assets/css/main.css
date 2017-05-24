@@ -49,7 +49,7 @@ body{
 	position: relative;
 	left: 10px;
 }
-#guardar-imagen{
+#foto-celular{
     position: fixed;
     z-index: -1;
     width: 100%;
@@ -98,7 +98,7 @@ body{
     position: absolute;
 }
 
-.phone{
+#phone{
 	position: relative;
 	top: 61px;
 	border-right: none;
@@ -111,7 +111,7 @@ body{
     padding: 8px;
 
 }
-.botonn {
+#botonn {
     color: white;
     width: 239px;
     padding: 10px;
