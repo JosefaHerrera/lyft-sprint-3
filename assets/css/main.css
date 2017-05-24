@@ -99,7 +99,7 @@ body{
     position: absolute;
 }
 
-input{
+.phone{
 	position: relative;
 	top: 61px;
 	border-right: none;
@@ -169,8 +169,37 @@ input{
     border: transparent;
     left: 44px;
 }
+input#autox {
+    /* bottom: -88px; */
+    position: relative;
+    top: 61px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: 315px;
+    left: 93px;
+    top: 94px;
+    border-bottom: 1px solid #75726C;
+    background-color: #EDE9E2;
+    font-size: 15px;
+    padding: 8px;
 }
 
+input#autoy {
+    /* bottom: -88px; */
+    position: relative;
+    top: 61px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: 315px;
+    left: 173px;
+    top: 94px;
+    border-bottom: 1px solid #75726C;
+    background-color: #EDE9E2;
+    font-size: 15px;
+    padding: 8px;
+}
 
 
 
