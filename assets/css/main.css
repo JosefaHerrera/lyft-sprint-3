@@ -202,12 +202,24 @@ input#autoy {
 /*TERCERA PARTE DE LA PAGINA*/
 /*footer*/
 .piepagina {
-    background-color:#6a6762;
+    background-color: #6a6762;
     z-index: 2;
     position: relative;
     top: 200px;
     color: whitesmoke;
-    padding: 16px;
+    padding: 26px;
+
+}
+.laboratoria {
+    position: absolute;
+    left: 303px;
+}
+#moreLinks {
+    color: whitesmoke;
+    position: relative;
+    top: -4px;
+    left: 1121px;
+    text-decoration: none;
 }
 /*CSS dentro del fondo gris */
 #fondogris {
@@ -246,9 +258,10 @@ input#autoy {
     top:108px;
 }
 #link1{
-	text-decoration: none
+	text-decoration: none;
 	color: whitesmoke;
 }
+
 
 
 
