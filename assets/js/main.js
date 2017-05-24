@@ -10,6 +10,24 @@ numero.addEventListener("click", function(){
 	}
 });
 
+/*VALIDAR CAMPOS DE JUEGO*/
+var juegoCar=document.getElementById("jugar");
+juegoCar.addEventListener('click', function(){
+	var x = document.getElementById("xauto").value;
+	var y = document.getElementById("yauto").value;
+	x=parseInt(x);
+	y=parseInt(y);
+	if (isNaN(x)==true || isNaN(y)==true){
+		alert("Debes ingresar números");
+	}
+	else if(x>10){
+		alert ("Para X (número entre el 1 y 10)");
+	}else if(y>6){
+		alert ("Para Y (número entre 1 y 6)");
+	}else{
+		alert("valores ingresados correctamente");
+	}
+});
 
 
 
