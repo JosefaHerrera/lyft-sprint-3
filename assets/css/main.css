@@ -16,6 +16,7 @@ body{
 	background-image: url('../img/cropped-Lyft-Promo-Codes-car-1.jpg');
 
 }
+/*Menu*/
 .container{
 	position: fixed;
 	display: inline-block;
@@ -148,14 +149,7 @@ body{
 	top:10px;
 }
 /*JUEGO AUTOS*/
-.autos {
-    position: relative;
-    background-color: #EDE9E2;
-    width: 906px;
-    height: 286px;
-    left: 296px;
-    bottom: -74px;
-}
+
 .boton2{
     color: white;
     width: 816px;
@@ -168,36 +162,48 @@ body{
     border: transparent;
     left: 44px;
 }
-input#autox {
-    /* bottom: -88px; */
-    position: relative;
-    top: 61px;
-    border-right: none;
-    border-left: none;
-    border-top: none;
-    width: 315px;
-    left: 93px;
-    top: 94px;
-    border-bottom: 1px solid #75726C;
-    background-color: #EDE9E2;
-    font-size: 15px;
-    padding: 8px;
+.autos{
+	background-color: #EDE9E2;
+	width: 850px;
+	height: 150px;
+	position: relative;
+	top: 100px;
+	left: 306px;
+	right: 200px;
+	padding-top: 50px;
+	text-align: center;
 }
-
-input#autoy {
-    /* bottom: -88px; */
-    position: relative;
-    top: 61px;
-    border-right: none;
-    border-left: none;
-    border-top: none;
-    width: 315px;
-    left: 173px;
-    top: 94px;
-    border-bottom: 1px solid #75726C;
-    background-color: #EDE9E2;
-    font-size: 15px;
-    padding: 8px;
+.fa-car{
+	color: #75726C;
+	font-size: 30px;
+	padding-left: 10px;
+}
+#xcorde, #ycorde{
+	background-color: #EDE9E2;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 1px solid #75726C;
+	width: 320px;
+	height: 40px;
+	color: #75726C;
+}
+#xcorde:focus, #ycorde:focus{
+	outline: 0px;
+}
+.start{
+	color: white;
+	text-transform: uppercase;
+	width: 800px;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #00B2A9;
+	border-radius: 12px;
+	border-right-style: none;
+	border-bottom-style: solid;
+	cursor: pointer;
+	outline: 0px;
+	border: none;
 }
 /*TERCERA PARTE DE LA PAGINA*/
 /*footer*/
@@ -257,21 +263,9 @@ input#autoy {
     left: 952px;
     top:108px;
 }
-#link1{
+a{
 	text-decoration: none;
 	color: whitesmoke;
-}
-#link2{
-	text-decoration: none;
-	color: whitesmoke;	
-}
-#link3{
-	text-decoration: none;
-	color: whitesmoke;	
-}
-#link4{
-	text-decoration: none;
-	color: whitesmoke;	
 }
 
 
