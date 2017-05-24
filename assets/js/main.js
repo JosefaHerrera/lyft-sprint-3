@@ -31,7 +31,7 @@ juegoCar.addEventListener('click', function(){
 
 
 
-
+/*EN EL BORDE DEL COPALSO ! ! !*/
 
 
 
